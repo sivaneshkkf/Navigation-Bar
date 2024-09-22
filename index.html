@@ -31,11 +31,14 @@
                 border-top-left-radius: 0.375rem;
                 box-shadow: 0px -4px 0 0 rgb(15, 23, 42);
             }
+            .navbar{
+              padding-bottom: env(safe-area-inset-bottom);
+            }
         </style>
 
   </head>
   <body
-    class="bg-slate-900 h-svh flex flex-col items-center justify-end sm:items-center sm:p-40 gap-20">
+    class="bg-slate-900 h-screen flex flex-col items-center justify-end sm:items-center sm:p-40 gap-20">
 
     <div class="relative w-80 h-96 perspective-1000">
       <div class="w-full h-full bg-white rounded-lg shadow-lg shadow-black 
@@ -51,7 +54,7 @@
       </div>
     </div>
 
-    <div class="fixed bottom-0">
+    <div class="fixed bottom-0 navbar">
       <div id="navCon"
       class="bg-white rounded py-2 px-2 w-screen sm:w-fit sm:flex sm:justify-center relative z-20">
       <ul id="ulEl" class="flex justify-around list-none text-black text-base">
