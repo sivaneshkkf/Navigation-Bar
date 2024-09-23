@@ -554,6 +554,10 @@ video {
   display: none;
 }
 
+.fixed {
+  position: fixed;
+}
+
 .absolute {
   position: absolute;
 }
@@ -564,6 +568,10 @@ video {
 
 .-top-7 {
   top: -1.75rem;
+}
+
+.bottom-0 {
+  bottom: 0px;
 }
 
 .left-0 {
@@ -681,6 +689,10 @@ video {
 
 .gap-20 {
   gap: 5rem;
+}
+
+.overflow-hidden {
+  overflow: hidden;
 }
 
 .rounded {
